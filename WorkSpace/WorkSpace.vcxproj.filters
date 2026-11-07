@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WinWrappers">
+      <UniqueIdentifier>{c15e573b-9210-49d7-84e5-fdf03d5d528b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{ba827a98-cf7c-4aba-8d1d-ccf1408ebb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenter">
+      <UniqueIdentifier>{699dce12-c07f-48ab-8d27-e2d51c75c947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{34821356-e759-40d9-a628-805b57e8dee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinWrappers\Direct2D">
+      <UniqueIdentifier>{c836516e-2159-4cd5-b6c2-7bb460c46cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinWrappers\DirectWrite">
+      <UniqueIdentifier>{ba25e7a9-50e5-4048-adff-acb6635e0426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinWrappers\WinCodecs">
+      <UniqueIdentifier>{472c1e2b-a86f-4ade-8f87-91bbe2da8c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinWrappers\COM">
+      <UniqueIdentifier>{9914eac1-e882-4b87-9f79-1068f613e839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{5cd08c51-ef72-42c6-bb98-4fc79b08159e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\CHWND.cpp">
+      <Filter>WinWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\WorkSpace.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\WorkSpaceApp.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\WindowClass.cpp">
+      <Filter>WinWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\Application.cpp">
+      <Filter>WinWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\HelperFunctions.cpp">
+      <Filter>WinWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Widgets\ProjectView.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter\MainPresenter.cpp">
+      <Filter>Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\AppData.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\Direct2D\Direct2DFactory.cpp">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\Direct2D\RenderTarget.cpp">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\Direct2D\SolidColorBrush.cpp">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\DirectWrite\WriteFactory.cpp">
+      <Filter>WinWrappers\DirectWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\DirectWrite\WriteTextFormat.cpp">
+      <Filter>WinWrappers\DirectWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\ProjectInfo.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\WinCodecs\WICImagingFactory.cpp">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\COM\COM.cpp">
+      <Filter>WinWrappers\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\WinCodecs\WICBitmapDecoder.cpp">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\WinCodecs\WICBitmapFrameDecode.cpp">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\WinCodecs\WICFormatConverter.cpp">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWrappers\Direct2D\Bitmap.cpp">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="View\MainView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinWrappers\CHWND.h">
+      <Filter>WinWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\WorkSpace.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\WorkSpaceApp.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\WindowClass.h">
+      <Filter>WinWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\Application.h">
+      <Filter>WinWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\HelperFunctions.h">
+      <Filter>WinWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Widgets\ProjectView.h">
+      <Filter>Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter\MainPresenter.h">
+      <Filter>Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\AppData.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\Direct2D\Direct2DFactory.h">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\Direct2D\RenderTarget.h">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\Direct2D\SolidColorBrush.h">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\DirectWrite\WriteFactory.h">
+      <Filter>WinWrappers\DirectWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\DirectWrite\WriteTextFormat.h">
+      <Filter>WinWrappers\DirectWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\ProjectInfo.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\WinCodecs\WICImagingFactory.h">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\COM\COM.h">
+      <Filter>WinWrappers\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\WinCodecs\WICBitmapDecoder.h">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\WinCodecs\WICBitmapFrameDecode.h">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\WinCodecs\WICFormatConverter.h">
+      <Filter>WinWrappers\WinCodecs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWrappers\Direct2D\Bitmap.h">
+      <Filter>WinWrappers\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="View\MainView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\IMainView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
